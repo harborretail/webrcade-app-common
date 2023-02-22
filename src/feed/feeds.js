@@ -218,8 +218,8 @@ class Feeds extends FeedBase {
         longTitle: "Default Feed",
         description: "The default feed contains a collection of high-quality publicly available games and demos across the various applications (emulators, engines, etc.) that are supported by webЯcade.",
         url: Feeds.NONE_URL,
-        thumbnail: "default-feed/images/default-thumb.png",
-        background: "default-feed/images/default-background.png"
+        thumbnail: "default-feed/webrcade/images/default-thumb.png",
+        background: "default-feed/webrcade/images/default-background.png"
       })
     }
 
@@ -230,8 +230,8 @@ class Feeds extends FeedBase {
       longTitle: "Add Feed",
       description: "Register a new feed with webЯcade by selecting one of the buttons below. Use the \"URL\" button to register a cloud-based feed or the \"FILE\" button for a locally stored feed file.",
       url: Feeds.NONE_URL,
-      thumbnail: "images/add-thumb.png",
-      background: "images/add-background.png"
+      thumbnail: "webrcade/images/add-thumb.png",
+      background: "webrcade/images/add-background.png"
     })
 
     expandedFeeds = this._expandItems(expandedFeeds);
